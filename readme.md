@@ -202,7 +202,6 @@ Implementations of the Lightning Network Protocol
 
 ## Community
 
-- [Lightning Network Community Blog](http://lightning.community/)
 - [Lightning Network Twitter Feed](https://twitter.com/lightning)
 - [Lightning Network Mailing List](https://lists.linuxfoundation.org/mailman/listinfo/lightning-dev)
 - [Lightning Labs Blog](https://blog.lightning.engineering/)
@@ -218,11 +217,6 @@ Implementations of the Lightning Network Protocol
 ## Related Lists
 
 - [awesome-bitcoin](https://github.com/igorbarinov/awesome-bitcoin)
-- [awesome-blockchain](https://github.com/igorbarinov/awesome-blockchain)
-- [Lightning Network Stores](http://lightningnetworkstores.com/)
-- [Accept Lightning](https://acceptlightning.com/) - Directory of merchants accepting Lightning payments
-- [Robtex LN Directory](https://www.robtex.com/directory/lightning/) - List of lapps and stores.
-- [lnroute lists](https://lnroute.com/) - List of resources, lapps and stores.
 
 
 ## Contribute
