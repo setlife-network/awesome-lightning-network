@@ -115,7 +115,7 @@ Implementations of the Lightning Network Protocol
 ## Developer Resources
 
 - [Lightning Overview](http://dev.lightning.community/overview/)
-- [LND Developers Site](http://dev.lightning.community/)
+- [LND Developers Site](https://docs.lightning.engineering/)
 - [LND Developer Guide](http://dev.lightning.community/guides/)
 - [Rusty Russell's BOLT Blog Series](https://medium.com/@rusty_lightning/the-bitcoin-lightning-spec-part-1-8-a7720fb1b4da)
 - [LN in a box](https://github.com/bajohns/lightning-in-a-box) - Project that aims to quickly have lnd + btc setup for playing
@@ -152,8 +152,6 @@ Implementations of the Lightning Network Protocol
 - [lightningd-gjson-rpc](https://github.com/fiatjaf/lightningd-gjson-rpc) - [gjson](https://github.com/tidwall/gjson)-based RPC client for c-lightning.
 - [Sitzprobe](https://github.com/niftynei/sitzprobe) - A c-lightning plugin that actively sends test payments through the lightning network allowing finding and/or deprecating channels for the payments
 - [get-lightning-paid](https://github.com/conscott/get-lightning-paid) - A Flask REST API to generate lightning invoices and payment confirmations
-- [lnd-sql](https://github.com/lightning-power-users/lnd-sql) - Output the lnd node data in a relational SQL database
-- [Dazaar](http://dazaar.com/) - A library for selling data over a P2P network.
 
 ### Tutorials
 
