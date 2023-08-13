@@ -96,10 +96,7 @@ Implementations of the Lightning Network Protocol
 - [1ML](https://1ml.com/) - 1ML explorer (mainnet + testnet)
 - [Amboss.space](https://amboss.space/) - Amboss.space explorer
 - [Bitcoin Exchange Rate](https://bitcoinexchangerate.org/lightning) - Lightning network explorer (testnet and mainnet)
-- [Lightblock](https://lightblock.me) - lightning network explorer mainnet.
-- [Lightning network explorer](https://explorer.acinq.co/) - Lightning network explorer (testnet)
 - [List of explorers](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - meta list of visualisers and metrics sites
-- [lngraph](https://github.com/xsb/lngraph) - Personal private Lightning Network explorer using Neo4j Browser.
 - [Robtex Bitcoin Lightning Explorer](https://www.robtex.com/lightning/node/) - Robtex Bitcoin Lightning Explorer (mainnet)
 
 ### Misc
