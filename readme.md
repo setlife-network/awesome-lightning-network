@@ -56,7 +56,7 @@ Implementations of the Lightning Network Protocol
 - [Lightning Network BOLTs](https://github.com/lightning/bolts)
 - [LND API Reference](https://lightning.engineering/api-docs/api/lnd/)
 - [Lightning Network White Paper](https://lightning.network/lightning-network-paper.pdf)
-- [Scalable Funding of Bitcoin Micropayment Channel Networks](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
+- [Scalable Funding of Bitcoin Micropayment Channel Networks](https://nakamotoinstitute.org/static/docs/scalable-funding-of-bitcoin-micropayment-channel-networks.pdf)
 
 ## Applications
 
