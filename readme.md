@@ -69,7 +69,6 @@ Implementations of the Lightning Network Protocol
 
 ### Web Interfaces
 
-- [fulmo](https://github.com/marzig76/fulmo) - A minimalist c-lightning UI
 - [Joule](http://lightningjoule.com) - A browser extension for lnd that enables payments and other interactions with lightning apps (similar to MetaMask)
 - [kWh](https://github.com/fiatjaf/kwh) - A browser extension that connects to c-lightning or Eclair nodes and enables interactions with Lightning apps (similar to Joule)
 - [kugelblitz](https://github.com/cdecker/kugelblitz) - A simple UI for the c-lightning daemon lightningd and bitcoind
