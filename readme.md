@@ -7,7 +7,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Lightning Network Protocol](#lightning-network-protocol)
   - [Implementations](#implementations)
   - [Specifications / White Papers](#specifications--white-papers)
@@ -48,40 +47,28 @@ Implementations of the Lightning Network Protocol
 - [c-lightning](https://github.com/ElementsProject/lightning) - A Lightning Network implementation in C
 - [rust-lightning](https://github.com/rust-bitcoin/rust-lightning) - A Lightning Network implementation in Rust [Incomplete]
 - [lightning-onion](https://github.com/lightningnetwork/lightning-onion) - Onion Routed Micropayments for the Lightning Network (Golang)
-- [ptarmigan](https://github.com/nayutaco/ptarmigan) - C++ BOLT-Compliant Lightning Network Implementation
 
 ### Specifications / White Papers
 
-- [Lightning Network Specification](https://github.com/lightningnetwork/lightning-rfc)
-- [LND API Reference](http://api.lightning.community/)
+- [Lightning Network BOLTs](https://github.com/lightning/bolts)
+- [LND API Reference](https://lightning.engineering/api-docs/api/lnd/)
 - [Lightning Network White Paper](https://lightning.network/lightning-network-paper.pdf)
-- [Deployable Lightning White Paper](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
-- [Scalable Funding of Bitcoin Micropayment Channel Networks](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
+- [Scalable Funding of Bitcoin Micropayment Channel Networks](https://nakamotoinstitute.org/static/docs/scalable-funding-of-bitcoin-micropayment-channel-networks.pdf)
 
 ## Applications
 
 ### Desktop Interfaces
 
-- [lightning-app](https://github.com/lightninglabs/lightning-app) - Cross-platform Lightning Desktop Application
-- [lnd-gui](https://github.com/alexbosworth/lnd-gui) - Lightning MacOS GUI Wallet
 - [eclair-node-gui](https://github.com/ACINQ/eclair) - Cross-platform desktop GUI for Lightning
 - [zap-desktop](https://github.com/LN-Zap/zap-desktop) - Lightning Network desktop application
-- [Presto](https://github.com/icota/presto) - c-lightning based desktop wallet
-- [Lightning Peach Wallet](https://github.com/LightningPeach/lightning-peach-wallet) - Bitfury Lightning Wallet
 - [spark-wallet](https://github.com/shesek/spark-wallet) - Minimal GUI for c-lightning; available as web, mobile and desktop application
-- [Voltage](https://github.com/benharold/voltage) - Voltage is a macOS GUI for c-lightning
 - [Node-launcher](https://github.com/lightning-power-users/node-launcher) - Quickly install BTC and launch the LN desktop app
-- [Sparkswap Desktop](https://github.com/sparkswap/sparkswap-desktop) - Buy BTC using USD and LND
-- [ShockWizard](https://github.com/shocknet/Wizard) - Install a Shockwallet LND node on any Desktop/Laptop in just a few clicks.
 
 ### Web Interfaces
 
-- [fulmo](https://github.com/marzig76/fulmo) - A minimalist c-lightning UI
 - [Joule](http://lightningjoule.com) - A browser extension for lnd that enables payments and other interactions with lightning apps (similar to MetaMask)
-- [kWh](https://github.com/fiatjaf/kwh) - A browser extension that connects to c-lightning or Eclair nodes and enables interactions with Lightning apps (similar to Joule)
-- [kugelblitz](https://github.com/cdecker/kugelblitz) - A simple UI for the c-lightning daemon lightningd and bitcoind
 - [lncli-web](https://github.com/mably/lncli-web) - Light-weight web client for the lnd daemon written in NodeJS / Angular
-- [Ride The Lightning](https://github.com/ShahanaFarooqui/RTL) - Web Client for LND Daemon written in NodeJS /  Angular 7
+- [Ride The Lightning](https://github.com/Ride-The-Lightning/RTL) - Web Client for LND Daemon written in NodeJS /  Angular
 - [LND-For-WP](https://github.com/rstmsn/lnd-for-wp) - WordPress plugin for managing & using your LND Node; [WordPress Plugin Directory](https://wordpress.org/plugins/lnd-for-wp/)
 - [ThunderHub](https://github.com/apotdevin/thunderhub) - Web UI for managing (multiple) LND Nodes written in TypeScript / React
 
@@ -95,11 +82,7 @@ Implementations of the Lightning Network Protocol
 
 ### Mobile applications
 
-- [rawtx](https://github.com/rawtxapp/rawtxapp) - A lightning network wallet (Android, iOS); [Homepage](https://rawtx.com)
-- [Swift Lightning](https://github.com/biscottigelato/SwiftLightning) - LN wallet build on top of LND for iOS
 - [Bitcoin Lightning Wallet](https://play.google.com/store/apps/details?id=com.lightning.walletapp)  - An Android based Lightning Network compatible wallet based on Eclair ([testnet version](https://play.google.com/store/apps/details?id=com.lightning.wallet))
-- [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
-- [Globular](https://gitlab.com/inbitcoin/globular) - cross-implementation LN Android remote wallet, connects to a Lighter instance (see [Libraries](#libraries) section)
 - [Muun](https://muun.com/) - A Lightning Network wallet for Android. ([Github](https://github.com/muun/apollo))
 - [Shockwallet](https://shockwallet.app) - A Lightning SuperApp and Decentralized Social Network. ([Github](https://github.com/shocknet/wallet))
 - [Zebedee](https://zbd.gg) - Bitcoin gaming wallet
@@ -110,10 +93,7 @@ Implementations of the Lightning Network Protocol
 - [1ML](https://1ml.com/) - 1ML explorer (mainnet + testnet)
 - [Amboss.space](https://amboss.space/) - Amboss.space explorer
 - [Bitcoin Exchange Rate](https://bitcoinexchangerate.org/lightning) - Lightning network explorer (testnet and mainnet)
-- [Lightblock](https://lightblock.me) - lightning network explorer mainnet.
-- [Lightning network explorer](https://explorer.acinq.co/) - Lightning network explorer (testnet)
 - [List of explorers](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - meta list of visualisers and metrics sites
-- [lngraph](https://github.com/xsb/lngraph) - Personal private Lightning Network explorer using Neo4j Browser.
 - [Robtex Bitcoin Lightning Explorer](https://www.robtex.com/lightning/node/) - Robtex Bitcoin Lightning Explorer (mainnet)
 
 ### Misc
@@ -126,15 +106,13 @@ Implementations of the Lightning Network Protocol
 - [LightningBuddy](https://github.com/elaineo/LightningBuddy) - Twitter relay for Lightning JSON-RPC interface.
 - [LightningTip](https://github.com/michael1011/lightningtip) LND focused Lightning Tip too, embed in webpage.
 - [ln-tip-slack](https://github.com/CryptoFR/ln-tip-slack) - Lightning [Slack](https://slack.com/) Tipbot
-- [lnplace](https://github.com/sangaman/lnplace) - Purchase pixels with lightning payments - Submission of [L2 Summit Hackathon](https://innovation.mit.edu/event/l2-summit/)
 - [nanotip](https://github.com/ElementsProject/nanotip) - Lightning Tip Box (based on c-lightning); [Blog Post](https://blockstream.com/2018/03/24/tipping-on-lightning-with-nanotip-lapp.html)
-- [Carrot](https://earncarrot.com) - Rewards site that lets you earn Bitcoin via Lightning
 - [Satoshis.Stream](https://satoshis.stream) - Earn Lightning sats as a podcaster, easily
 
 ## Developer Resources
 
 - [Lightning Overview](http://dev.lightning.community/overview/)
-- [LND Developers Site](http://dev.lightning.community/)
+- [LND Developers Site](https://docs.lightning.engineering/)
 - [LND Developer Guide](http://dev.lightning.community/guides/)
 - [Rusty Russell's BOLT Blog Series](https://medium.com/@rusty_lightning/the-bitcoin-lightning-spec-part-1-8-a7720fb1b4da)
 - [LN in a box](https://github.com/bajohns/lightning-in-a-box) - Project that aims to quickly have lnd + btc setup for playing
@@ -171,8 +149,6 @@ Implementations of the Lightning Network Protocol
 - [lightningd-gjson-rpc](https://github.com/fiatjaf/lightningd-gjson-rpc) - [gjson](https://github.com/tidwall/gjson)-based RPC client for c-lightning.
 - [Sitzprobe](https://github.com/niftynei/sitzprobe) - A c-lightning plugin that actively sends test payments through the lightning network allowing finding and/or deprecating channels for the payments
 - [get-lightning-paid](https://github.com/conscott/get-lightning-paid) - A Flask REST API to generate lightning invoices and payment confirmations
-- [lnd-sql](https://github.com/lightning-power-users/lnd-sql) - Output the lnd node data in a relational SQL database
-- [Dazaar](http://dazaar.com/) - A library for selling data over a P2P network.
 
 ### Tutorials
 
@@ -189,16 +165,12 @@ Implementations of the Lightning Network Protocol
 
 ### Example Projects
 
-- [ilp-lightning-demo](https://github.com/interledgerjs/ilp-lightning-demo) - Demo sending payments between Bitcoin and Litecoin Lightning Networks using Interledger
 - [lightning-coindesk](https://github.com/lightninglabs/lightning-coindesk) - An example news app exemplifying Lightning Network micropayments integration
 
 ### Simulators
 
-- [lnsim](https://github.com/dianerey/lnsim) - A simulator in OCaml (2017). See also: [Simulating a Decentralized Lightning Network with 10 Million Users](https://hackernoon.com/simulating-a-decentralized-lightning-network-with-10-million-users-9a8b5930fa7a) by Reynolds and [Simulating a Decentralized Lightning Network with 500,000 payments, 0.01% fee per hub and 10 Million Users: 100% success (99.9986%)](https://www.reddit.com/r/Bitcoin/comments/7mwag6/simulating_a_decentralized_lightning_network_with/)
-- [LNSim](https://github.com/gdistasi/LNSim/) - A simulator in C++ (2018). See paper (PDF): [Routing payments on the Lightning Network](http://wpage.unina.it/giovanni.distasi/pub/blockchain2018-main.pdf) by Di Stasi et al.
 - CLoTH - A simulator in C. See paper [CLoTH: a Simulator for HTLC Payment Networks](https://arxiv.org/abs/1812.09940) by Conoscenti et al. Code not released.
 - Blyskavka - A simulator in Java. See paper [Split Payments in Payment Networks](https://www.researchgate.net/publication/327470777_Split_Payments_in_Payment_Networks_ESORICS_2018_International_Workshops_DPM_2018_and_CBT_2018_Barcelona_Spain_September_6-7_2018_Proceedings) by Piatkivskyi and Nowostawski. Code not released.
-- [Lightning-Network-Simulator](https://github.com/whiteyhat/Lightning-Network-Simulator) (2019) - A simulator in Java. See [website](https://devpost.com/software/lightning-network-simulator).
 - [LNTrafficSimulator](https://github.com/ferencberes/LNTrafficSimulator)
 
 ## Learning Resources
@@ -227,7 +199,6 @@ Implementations of the Lightning Network Protocol
 
 ## Community
 
-- [Lightning Network Community Blog](http://lightning.community/)
 - [Lightning Network Twitter Feed](https://twitter.com/lightning)
 - [Lightning Network Mailing List](https://lists.linuxfoundation.org/mailman/listinfo/lightning-dev)
 - [Lightning Labs Blog](https://blog.lightning.engineering/)
@@ -243,11 +214,6 @@ Implementations of the Lightning Network Protocol
 ## Related Lists
 
 - [awesome-bitcoin](https://github.com/igorbarinov/awesome-bitcoin)
-- [awesome-blockchain](https://github.com/igorbarinov/awesome-blockchain)
-- [Lightning Network Stores](http://lightningnetworkstores.com/)
-- [Accept Lightning](https://acceptlightning.com/) - Directory of merchants accepting Lightning payments
-- [Robtex LN Directory](https://www.robtex.com/directory/lightning/) - List of lapps and stores.
-- [lnroute lists](https://lnroute.com/) - List of resources, lapps and stores.
 
 
 ## Contribute
