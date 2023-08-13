@@ -168,7 +168,6 @@ Implementations of the Lightning Network Protocol
 
 ### Example Projects
 
-- [ilp-lightning-demo](https://github.com/interledgerjs/ilp-lightning-demo) - Demo sending payments between Bitcoin and Litecoin Lightning Networks using Interledger
 - [lightning-coindesk](https://github.com/lightninglabs/lightning-coindesk) - An example news app exemplifying Lightning Network micropayments integration
 
 ### Simulators
