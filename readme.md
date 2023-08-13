@@ -53,7 +53,7 @@ Implementations of the Lightning Network Protocol
 
 ### Specifications / White Papers
 
-- [Lightning Network Specification](https://github.com/lightningnetwork/lightning-rfc)
+- [Lightning Network BOLTs](https://github.com/lightning/bolts)
 - [LND API Reference](http://api.lightning.community/)
 - [Lightning Network White Paper](https://lightning.network/lightning-network-paper.pdf)
 - [Deployable Lightning White Paper](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
