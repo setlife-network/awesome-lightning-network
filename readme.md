@@ -8,30 +8,32 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Lightning Network Protocol](#lightning-network-protocol)
-  - [Implementations](#implementations)
-  - [Specifications / White Papers](#specifications--white-papers)
-- [Applications](#applications)
-  - [Desktop Interfaces](#desktop-interfaces)
-  - [Web Interfaces](#web-interfaces)
-  - [Command Line Interfaces](#command-line-interfaces)
-  - [Mobile applications](#mobile-applications)
-  - [Explorers](#explorers)
-  - [Misc](#misc)
-- [Developer Resources](#developer-resources)
-  - [Tools](#tools)
-  - [Libraries](#libraries)
-  - [Tutorials](#tutorials)
-  - [Example Projects](#example-projects)
-  - [Simulators](#simulators)
-- [Learning Resources](#learning-resources)
-  - [Talks](#talks)
-  - [Books](#books)
-- [Community](#community)
-  - [IRC](#irc)
-- [Related Lists](#related-lists)
-- [Contribute](#contribute)
-- [License](#license)
+- [⚡ awesome-lightning-network ](#-awesome-lightning-network-)
+  - [Contents](#contents)
+  - [Lightning Network Protocol](#lightning-network-protocol)
+    - [Implementations](#implementations)
+    - [Specifications / White Papers](#specifications--white-papers)
+  - [Applications](#applications)
+    - [Desktop Interfaces](#desktop-interfaces)
+    - [Web Interfaces](#web-interfaces)
+    - [Command Line Interfaces](#command-line-interfaces)
+    - [Mobile applications](#mobile-applications)
+    - [Explorers](#explorers)
+    - [Misc](#misc)
+  - [Developer Resources](#developer-resources)
+    - [Tools](#tools)
+    - [Libraries](#libraries)
+    - [Tutorials](#tutorials)
+    - [Example Projects](#example-projects)
+    - [Simulators](#simulators)
+  - [Learning Resources](#learning-resources)
+    - [Talks](#talks)
+    - [Books](#books)
+  - [Community](#community)
+    - [IRC](#irc)
+  - [Related Lists](#related-lists)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -48,7 +50,6 @@ Implementations of the Lightning Network Protocol
 - [c-lightning](https://github.com/ElementsProject/lightning) - A Lightning Network implementation in C
 - [rust-lightning](https://github.com/rust-bitcoin/rust-lightning) - A Lightning Network implementation in Rust [Incomplete]
 - [lightning-onion](https://github.com/lightningnetwork/lightning-onion) - Onion Routed Micropayments for the Lightning Network (Golang)
-- [ptarmigan](https://github.com/nayutaco/ptarmigan) - C++ BOLT-Compliant Lightning Network Implementation
 
 ### Specifications / White Papers
 
